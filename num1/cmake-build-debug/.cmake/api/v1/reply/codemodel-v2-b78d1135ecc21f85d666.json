@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/comp007/Desktop/hse/HSE-INFO-DEMO/num1/cmake-build-debug",
-		"source" : "C:/Users/comp007/Desktop/hse/HSE-INFO-DEMO/num1"
+		"build" : "C:/Users/comp007/Desktop/hse/HSE-INFO-DEMO/hse/num1/cmake-build-debug",
+		"source" : "C:/Users/comp007/Desktop/hse/HSE-INFO-DEMO/hse/num1"
 	},
 	"version" : 
 	{

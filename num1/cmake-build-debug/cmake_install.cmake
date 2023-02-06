@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/comp007/Desktop/hse/HSE-INFO-DEMO/num1
+# Install script for directory: C:/Users/comp007/Desktop/hse/HSE-INFO-DEMO/hse/num1
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/comp007/Desktop/hse/HSE-INFO-DEMO/num1/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/comp007/Desktop/hse/HSE-INFO-DEMO/hse/num1/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -39,7 +39,7 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = C$:/Users/comp007/Desktop/hse/HSE-INFO-DEMO/num1/cmake-build-debug/
+cmake_ninja_workdir = C$:/Users/comp007/Desktop/hse/HSE-INFO-DEMO/hse/num1/cmake-build-debug/
 # =============================================================================
 # Object build statements for EXECUTABLE target num1
 
@@ -49,7 +49,7 @@ cmake_ninja_workdir = C$:/Users/comp007/Desktop/hse/HSE-INFO-DEMO/num1/cmake-bui
 
 build cmake_object_order_depends_target_num1: phony || CMakeFiles/num1.dir
 
-build CMakeFiles/num1.dir/main.cpp.obj: CXX_COMPILER__num1_Debug C$:/Users/comp007/Desktop/hse/HSE-INFO-DEMO/num1/main.cpp || cmake_object_order_depends_target_num1
+build CMakeFiles/num1.dir/main.cpp.obj: CXX_COMPILER__num1_Debug C$:/Users/comp007/Desktop/hse/HSE-INFO-DEMO/hse/num1/main.cpp || cmake_object_order_depends_target_num1
   DEP_FILE = CMakeFiles\num1.dir\main.cpp.obj.d
   FLAGS = -g -std=gnu++14
   OBJECT_DIR = CMakeFiles\num1.dir
@@ -81,7 +81,7 @@ build num1.exe: CXX_EXECUTABLE_LINKER__num1_Debug CMakeFiles/num1.dir/main.cpp.o
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\comp007\Desktop\hse\HSE-INFO-DEMO\num1\cmake-build-debug && "D:\JetBrains\CLion 2022.2\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = cmd.exe /C "cd /D C:\Users\comp007\Desktop\hse\HSE-INFO-DEMO\hse\num1\cmake-build-debug && "D:\JetBrains\CLion 2022.2\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -92,7 +92,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\comp007\Desktop\hse\HSE-INFO-DEMO\num1\cmake-build-debug && "D:\JetBrains\CLion 2022.2\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -SC:\Users\comp007\Desktop\hse\HSE-INFO-DEMO\num1 -BC:\Users\comp007\Desktop\hse\HSE-INFO-DEMO\num1\cmake-build-debug"
+  COMMAND = cmd.exe /C "cd /D C:\Users\comp007\Desktop\hse\HSE-INFO-DEMO\hse\num1\cmake-build-debug && "D:\JetBrains\CLion 2022.2\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -SC:\Users\comp007\Desktop\hse\HSE-INFO-DEMO\hse\num1 -BC:\Users\comp007\Desktop\hse\HSE-INFO-DEMO\hse\num1\cmake-build-debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -110,7 +110,7 @@ build num1: phony num1.exe
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/comp007/Desktop/hse/HSE-INFO-DEMO/num1/cmake-build-debug
+# Folder: C:/Users/comp007/Desktop/hse/HSE-INFO-DEMO/hse/num1/cmake-build-debug
 
 build all: phony num1.exe
 
